@@ -3,7 +3,7 @@
 //! Note: These tests require Ollama to be running with the appropriate models.
 //! Run: ollama pull llama3.2 && ollama pull nomic-embed-text
 
-use agentic_optio_rs::{Message, OllamaChat, OllamaEmbedding};
+use agentic_optio_rs::{BaseChatModel, BaseEmbedding, Message, OllamaChat, OllamaEmbedding};
 
 #[tokio::test]
 #[ignore] // Ignore by default since it requires Ollama running

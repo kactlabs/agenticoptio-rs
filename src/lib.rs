@@ -8,7 +8,7 @@
 //! # Examples
 //!
 //! ```no_run
-//! use agentic_optio_rs::{OllamaChat, Message};
+//! use agentic_optio_rs::{BaseChatModel, OllamaChat, Message};
 //!
 //! #[tokio::main]
 //! async fn main() -> Result<(), Box<dyn std::error::Error>> {

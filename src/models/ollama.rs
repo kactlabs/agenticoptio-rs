@@ -95,7 +95,7 @@ struct EmbeddingData {
 /// # Examples
 ///
 /// ```no_run
-/// use agentic_optio_rs::{OllamaChat, Message};
+/// use agentic_optio_rs::{BaseChatModel, OllamaChat, Message};
 ///
 /// #[tokio::main]
 /// async fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -313,7 +313,7 @@ impl OllamaChatBuilder {
 /// # Examples
 ///
 /// ```no_run
-/// use agentic_optio_rs::OllamaEmbedding;
+/// use agentic_optio_rs::{BaseEmbedding, OllamaEmbedding};
 ///
 /// #[tokio::main]
 /// async fn main() -> Result<(), Box<dyn std::error::Error>> {
