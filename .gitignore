@@ -2,9 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.pyc
-*.pyo
-*.pyd
 
 # C extensions
 *.so
@@ -150,29 +147,14 @@ venv3
 uploads/*
 !uploads/.gitkeep
 
-# sample ui themes
-sample/
-sampleui/
-sample_ui/
 
-# Media
-*.mp4
-*.mov
-*.avi
+# Custom
+source_one/** 
 
-# Documents
-# *.pdf
+# Rust additions
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
 
-# Archives
-*.zip
-*.tar
-*.tar.gz
-
-# Models
-*.safetensors
-*.bin
-*.pt
-*.ckpt
-
-# python codebase for rust migraiton
 pybase/
